@@ -23,6 +23,10 @@ body{
 }
 }
 
+.description{
+  width:70%; margin:0 auto;
+}
+
 .copyright{
     width: 40%;
 }
@@ -47,6 +51,9 @@ padding: 10px 0;
 .hea{
   width: 98%;
   margin: 0 auto;
+}
+.description{
+  width:90%; margin:0 auto;
 }
 }
 
@@ -96,7 +103,7 @@ nav ul a:hover::after {
   display: table;
   width: 100%;
   height: 100%;
-  
+
 }
 #wrapper-inner {
   display: table-cell;
