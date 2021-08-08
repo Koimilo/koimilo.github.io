@@ -37,7 +37,7 @@ body{
 .hea{
   width: 80%;
   margin: 0 auto !important;
-  min-height: 400px;
+  height: auto;
 }
 
 @media screen and (max-width: 992px) {
@@ -49,7 +49,7 @@ padding: 10px 0;
     width: 90%;
 }
 .hea{
-  width: 98%;
+  width: 100%;
   margin: 0 auto;
 }
 .description{
