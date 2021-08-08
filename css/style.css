@@ -11,10 +11,10 @@ body{
 .border-top-menu:before{
   content: '';
   position: absolute;
-  left: 50%;
+  left: 120px;
   top: -20px;/*線の上下位置*/
   display: inline-block;
-  width: 130%;/*線の長さ*/
+  width: 420px;/*線の長さ*/
   height: 5px;/*線の太さ*/
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);/*位置調整*/
@@ -32,7 +32,7 @@ body{
 
 .hea{
   width: 85%;
-  margin: 0 auto;
+  margin: 0 auto !important;
   min-height: 400px;
 }
 
