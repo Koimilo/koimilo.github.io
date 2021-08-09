@@ -40,7 +40,12 @@ body{
   height: auto;
 }
 .com{
+  height: 600px;
+}
+@media screen and (max-width: 2002px) {
+.com{
   min-height: 450px;
+}
 }
 
 @media screen and (max-width: 992px) {
