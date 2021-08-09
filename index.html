@@ -27,17 +27,17 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav ml-auto border-top-menu" style="padding-right:20px;">
       <li class="nav-item active">
-        <a class="nav-link text-dark" href="#">Home
+        <a class="nav-link text-dark" href="/">Home
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Novels</a>
+        <a class="nav-link text-dark" href="#novels">Novels</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#">About</a>
+        <a class="nav-link text-dark" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#">SNS</a>
+        <a class="nav-link text-dark" href="#sns">SNS</a>
       </li>
     </ul>
   </div>
@@ -73,7 +73,7 @@
 <br class="pc">
 <br class="pc">
   <br>
-  <br>
+  <br id="novels">
   <br>
 <div class="card panels-card hea">
   <div class="card-body grey lighten-5 rounded-bottom">
@@ -187,7 +187,7 @@
   <br>
   <br>
   <br>
-    <br>
+    <br id="about">
   <br>
 <h3 class="display-4 text-center">- About us -</h3><br>
 <div class="row aboutus" style="max-width:100%; margin:0 auto;">
@@ -246,6 +246,17 @@
 <br>
 <br>
 </section>
-
+<script>
+$(function(){
+$('a[href^=#]').click(function() {
+var speed = 500; // スクロール速度(ミリ秒)
+var href = $(this).attr("href");
+var target = $(href == "#" || href == "" ? 'html' : href);
+var position = target.offset().top;
+$('html').animate({scrollTop:position}, speed, 'swing');
+return false;
+});
+});
+</script>
 </body>
 </html>
