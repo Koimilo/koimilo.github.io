@@ -59,6 +59,9 @@ padding: 10px 0;
 .description{
   width:90%; margin:0 auto;
 }
+.news-a{
+  text-align: center;
+}
 }
 @media screen and (max-width: 780px) {
 .pc{
