@@ -55,7 +55,12 @@ body{
   height: 100%;
 }
 
-
+.chat{
+  text-align: center;margin:0 auto; margin-bottom: 25px;max-width: 80%; width:400px;
+}
+.chat-container{
+  max-width:80%; margin:0 auto;
+}
 @media screen and (max-width: 992px) {
 .border-top-menu{
 text-align: center;
@@ -73,6 +78,17 @@ padding: 10px 0;
 }
 .news-a{
   text-align: center;
+}
+.navbar{
+  box-shadow: none;
+  margin: 0 auto;
+  width: 100%;
+}
+.chat{
+  text-align: center;margin:0 auto; margin-bottom: 25px;max-width: 100%; width:400px;
+}
+.chat-container{
+  max-width:100%; margin:0 auto;
 }
 }
 @media screen and (max-width: 780px) {
