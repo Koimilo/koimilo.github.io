@@ -531,8 +531,8 @@ nav ul a:hover::after {
 .talking-left {
       float:left;
       border-width:2px;         /*枠線の太さ*/
-      border-color:lightpink;   /*枠線の色*/
-      background:lightpink;    /*背景色*/
+      border-color:#000;   /*枠線の色*/
+      background:none;    /*背景色*/
 }
 
 /*左の吹き出し 三角*/
@@ -540,7 +540,7 @@ nav ul a:hover::after {
       position: absolute;
       content: '';
       border: 10px solid transparent;
-      border-right: 10px solid lightpink;  /*三角の線になる部分*/
+      border-right: 10px solid #000;  /*三角の線になる部分*/
       top: 15px;
       left: -22px;
 }
@@ -549,7 +549,7 @@ nav ul a:hover::after {
       position: absolute;
       content: '';
       border: 10px solid transparent;
-      border-right: 10px solid lightpink;
+      border-right: 10px solid #000;
       top: 15px;
       left: -19px;
 }
@@ -558,8 +558,8 @@ nav ul a:hover::after {
 .talking-right {
       float:right;
       border-width:2px;      /*枠線の太さ*/
-      border-color:khaki;    /*枠線の色*/
-      background:khaki;    /*背景色*/
+      border-color:#000;    /*枠線の色*/
+      background:none;    /*背景色*/
 }
 
 /*右の吹き出し 三角*/
@@ -567,7 +567,7 @@ nav ul a:hover::after {
       position: absolute;
       content: '';
       border: 10px solid transparent;
-      border-left: 10px solid khaki;  /*三角の線になる部分*/
+      border-left: 10px solid #000;  /*三角の線になる部分*/
       top: 15px;
       right: -22px;
 }
@@ -576,7 +576,7 @@ nav ul a:hover::after {
       position: absolute;
       content: '';
       border: 10px solid transparent;
-      border-left: 10px solid khaki;
+      border-left: 10px solid #000;
       top: 15px;
       right: -19px;
 }
